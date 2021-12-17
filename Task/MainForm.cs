@@ -24,15 +24,15 @@ namespace Task
         private void Form1_Load(object sender, EventArgs e)
         {
             // TODO: данная строка кода позволяет загрузить данные в таблицу "taskDBDataSet2.Health_status". При необходимости она может быть перемещена или удалена.
-            this.health_statusTableAdapter.Fill(this.taskDBDataSet2.Health_status);
+            //this.health_statusTableAdapter.Fill(this.taskDBDataSet2.Health_status);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "taskDBDataSet1.Personal_information". При необходимости она может быть перемещена или удалена.
-            this.personal_informationTableAdapter.Fill(this.taskDBDataSet1.Personal_information);
+            //this.personal_informationTableAdapter.Fill(this.taskDBDataSet1.Personal_information);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "taskDBDataSet.Employee". При необходимости она может быть перемещена или удалена.
-            this.employeeTableAdapter.Fill(this.taskDBDataSet.Employee);
-            sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["TaskDB"].ConnectionString);
-            sqlConnection.Open();
-            if (sqlConnection.State == ConnectionState.Open)
-                MessageBox.Show("Подключение установленно");
+            //this.employeeTableAdapter.Fill(this.taskDBDataSet.Employee);
+            //sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["TaskDB"].ConnectionString);
+            //sqlConnection.Open();
+            //if (sqlConnection.State == ConnectionState.Open)
+                //MessageBox.Show("Подключение установленно");
 
         }
 
