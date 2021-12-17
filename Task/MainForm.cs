@@ -13,10 +13,10 @@ using System.Data.SqlClient;
 
 namespace Task
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         private SqlConnection sqlConnection = null;
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
